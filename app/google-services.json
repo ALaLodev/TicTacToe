@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "495386545177",
+    "firebase_url": "https://tictactoe-adef1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tictactoe-adef1",
+    "storage_bucket": "tictactoe-adef1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495386545177:android:cac9b7bf6314267feb2e88",
+        "android_client_info": {
+          "package_name": "com.alalodev.tictactoe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2yqxZd06YlYYmaTG2Q4kwMR5Y4PyZQBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

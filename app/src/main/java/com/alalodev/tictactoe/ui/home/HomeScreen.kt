@@ -19,10 +19,14 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 
 @Composable
-fun HomeScreen(homeViewModel: HomeViewModel = hiltViewModel(), navigateToGame:()->Unit) {
+fun HomeScreen(
+    homeViewModel: HomeViewModel = hiltViewModel(),
+    navigateToGame: (String, String, Boolean) -> Unit
+) {
+
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Spacer(modifier = Modifier.weight(2f))
-        CreateGame(onCreateGame = {homeViewModel.onCreateGame()})
+        CreateGame(onCreateGame = { homeViewModel.onCreateGame(navigateToGame) })
         Spacer(modifier = Modifier.weight(1f))
         Divider(
             modifier = Modifier
@@ -30,24 +34,24 @@ fun HomeScreen(homeViewModel: HomeViewModel = hiltViewModel(), navigateToGame:()
                 .height(2.dp)
         )
         Spacer(modifier = Modifier.weight(1f))
-        JoinGame(onJoinGame = {id->homeViewModel.onJoinGame(id)})
+        JoinGame(onJoinGame = { gameId -> homeViewModel.onJoinGame(gameId, navigateToGame) })
         Spacer(modifier = Modifier.weight(2f))
     }
 }
 
 @Composable
-fun CreateGame(onCreateGame: ()->Unit) {
+fun CreateGame(onCreateGame: () -> Unit) {
     Button(onClick = { onCreateGame() }) {
         Text(text = "Create game")
     }
 }
 
 @Composable
-fun JoinGame(onJoinGame:(String)->Unit) {
+fun JoinGame(onJoinGame: (String) -> Unit) {
     var text by remember { mutableStateOf("") }
     TextField(value = text, onValueChange = { text = it })
 
-    Button(onClick = {onJoinGame(text) }, enabled = text.isNotEmpty()) {
+    Button(onClick = { onJoinGame(text) }, enabled = text.isNotEmpty()) {
         Text(text = "Join to Game")
     }
 }
