@@ -3,9 +3,15 @@
 **Tic Tac Toe** es una moderna aplicación de Android que ofrece la experiencia clásica del juego Tic Tac Toe en tiempo real entre dos jugadores. Utilizando tecnologías avanzadas, como **Jetpack Compose**, **MVVM**, **Dagger Hilt** para la inyección de dependencias y **Firebase Realtime Database**, esta aplicación permite a los usuarios jugar entre sí sin importar la distancia.
 
 <p align="center">  
-  <img src="/app/screenshots/Tic1.png" alt="Main Screen" width="20%" style="margin-right: 40dp">  
-  <img src="/app/screenshots/Tic2.png" alt="Game Screen" width="20%" style="margin-right: 40dp">  
-  <img src="/app/screenshots/Tic3.png" alt="Game Play" width="20%">  
+  <img src="/app/screenshots/Tic1.png" alt="Main Screen" width="20%" style="margin-right: 40dp"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 10 non-breaking spaces --> 
+  <img src="/app/screenshots/Tic2.png" alt="Game Screen" width="20%" style="margin-right: 40dp"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 10 non-breaking spaces --> 
+  <img src="/app/screenshots/Tic3.png" alt="Game Play" width="20%" style="margin-right: 40dp">
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 10 non-breaking spaces --> 
+   <img src="/app/screenshots/Tic4.png" alt="Game Play" width="20%" style="margin-right: 40dp">
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 10 non-breaking spaces --> 
+   <img src="/app/screenshots/Tic5.png" alt="Game Play" width="20%" style="margin-right: 40dp">
 </p>  
 
 ---
