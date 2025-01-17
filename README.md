@@ -57,27 +57,6 @@ Tic Tac Toe uses the **MVVM (Model-View-ViewModel)** architecture pattern, ensur
 
 ---
 
-## 🛠️ Installation
-
-To run this project locally:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/tic-tac-toe.git
-    ```
-
-2. Open the project in **Android Studio**.
-
-3. Build and run the project on an Android device or emulator.
-
----
-
-## 🤝 Contributing
-
-Feel free to fork the repository and submit pull requests. Contributions, bug reports, and feature requests are welcome.
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
