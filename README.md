@@ -1,7 +1,6 @@
 # 📱 Tic Tac Toe - The Ultimate Real-Time Multiplayer Game
 
-**Tic Tac Toe** es una moderna aplicación de Android que ofrece la experiencia clásica del juego Tic Tac Toe en tiempo real entre dos jugadores. Utilizando tecnologías avanzadas, como **Jetpack Compose**, **MVVM**, **Dagger Hilt** para la inyección de dependencias y **Firebase Realtime Database**, esta aplicación permite a los usuarios jugar entre sí sin importar la distancia.
-
+Tic Tac Toe is a modern Android application that offers the classic Tic Tac Toe game experience in real-time between two players. Using advanced technologies such as Jetpack Compose, MVVM, Dagger Hilt for dependency injection, and Firebase Realtime Database, this app allows users to play against each other regardless of distance.
 <p align="center">  
   <img src="/app/screenshots/Tic1.png" alt="Main Screen" width="20%" style="margin-right: 40dp"> 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 10 non-breaking spaces --> 
