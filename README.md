@@ -5,8 +5,6 @@
 <p align="center">  
   <img src="/app/screenshots/Tic1.png" alt="Main Screen" width="20%" style="margin-right: 40dp"> 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 10 non-breaking spaces --> 
-  <img src="/app/screenshots/Tic2.png" alt="Game Screen" width="20%" style="margin-right: 40dp"> 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 10 non-breaking spaces --> 
   <img src="/app/screenshots/Tic3.png" alt="Game Play" width="20%" style="margin-right: 40dp">
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 10 non-breaking spaces --> 
    <img src="/app/screenshots/Tic4.png" alt="Game Play" width="20%" style="margin-right: 40dp">
